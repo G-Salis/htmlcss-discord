@@ -69,7 +69,7 @@ header{
 
 
 /* menu */
-.main-nav ul{
+.main-nav ul, .footer_list ul{
   list-style: none;
 }
 
@@ -78,13 +78,13 @@ header{
   display: inline-block;
 }
 
-.main-nav ul li a{
+.main-nav ul li a, .footer_list ul li a{
   color: white;
   text-decoration: none;
   font-size: 16px;
 }
 
-.main-nav ul li a:hover{
+.main-nav ul li a:hover, .footer_list ul li a:hover{
   text-decoration: underline;
 }
 
@@ -131,6 +131,7 @@ main{
   margin-top: 100px;
 }
 
+/* Sezione dedicata all'immagine */
 .float_img{
   width: 60%;
   min-height: 300px;
@@ -141,13 +142,14 @@ main{
   width: 100%;
 }
 
+/* Sezione dedicata al testo */
 .float_txt{
   width: 40%;
   min-height: 300px;
   float: left;
 }
 
-
+/* Titolo del contenuto */
 .title_main{
   font-size: 41px;
   font-weight: 900;
@@ -155,6 +157,7 @@ main{
   display: block;
 }
 
+/* Contenuto */
 .content_main{
   line-height: 35px;
 }
@@ -171,6 +174,7 @@ main{
   background-color: white;
 }
 
+/* Contenuto della quarta sezione */
 .unique_txt{
   padding-top: 100px;
   text-align: center;
@@ -179,8 +183,10 @@ main{
 .unique_img{
   width: 100%;
   text-align: center;
+  margin-bottom: 50px;
 }
 
+/* Sezione del download */
 .download_txt{
   background-image: url(../img/stars.svg);
   text-align: center;
@@ -188,7 +194,7 @@ main{
 
 #btn_main{
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .download_btn{
@@ -198,4 +204,91 @@ main{
 
 .download_btn:hover{
   color: black;
+}
+
+
+/* FOOTER */
+
+footer{
+  width: 100%;
+  min-height: 700px;
+  background-color: #23272A;
+  color: #5865F2;
+}
+
+/* Primo conteiner footer */
+footer .container:first-child{
+  padding-bottom: 50px;
+  border-bottom: 2px solid #5865F2;
+}
+
+.box_social{
+  float: left;
+  width: 25%;
+  margin-top: 100px;
+}
+
+.footer_txt{
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 35px;
+  margin-bottom: 15px;
+}
+
+.lingua img{
+  width: 15%;
+  vertical-align: middle;
+}
+
+.lingua{
+  margin: 30px 0px;
+}
+
+.lingua span{
+  color: white;
+}
+
+.lingua i{
+  font-size: 10px;
+}
+
+.icon ul{
+  list-style: none;
+}
+
+.icon ul li{
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.icon ul li a i{
+  font-size: 25px;
+  color: white;
+}
+
+.footer_list{
+  float: left;
+  width: 13.5%;
+  margin-top: 100px;
+  margin-left: 15px;
+  margin-left: 5%;
+}
+
+.footer_list ul li{
+  padding-bottom: 15px;
+}
+
+/* Secondo conteiner footer */
+footer .container:last-child{
+  margin-top: 40px;
+}
+
+#registrati{
+  float: right;
+}
+
+#registrati a{
+  color: white;
+  background-color: #5865F2;
+
 }
