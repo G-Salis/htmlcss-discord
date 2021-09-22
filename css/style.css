@@ -13,6 +13,8 @@ body{
 
 header{
   height: 80px;
+  background-color: #3161E0;
+  line-height: 80px;
 }
 
 
@@ -49,15 +51,6 @@ header{
 
 .btn:hover{
   color:cornflowerblue;
-}
-
-
-
-/* HEADER */
-header{
-  height: 80px;
-  background-color: #3161E0;
-  line-height: 80px;
 }
 
 /* logo */
@@ -126,4 +119,54 @@ header{
 
 .jumbotron .btn:first-of-type{
   margin-right: 20px;
+}
+
+
+/* MAIN */
+main{
+  width: 100%;
+}
+
+.float_img, .float_txt{
+  margin-top: 100px;
+}
+
+.float_img{
+  width: 60%;
+  min-height: 300px;
+  float: left;
+}
+
+.float_img > img{
+  width: 100%;
+}
+
+.float_txt{
+  width: 40%;
+  min-height: 300px;
+  float: left;
+}
+
+
+.title_main{
+  font-size: 41px;
+  font-weight: 900;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.content_main{
+  line-height: 35px;
+}
+
+.bg_grey{
+  width: 100%;
+  height: 600px;
+  background-color: #F6F6F6;
+}
+
+.bg_white{
+  width: 100%;
+  height: 600px;
+  background-color: white;
 }
